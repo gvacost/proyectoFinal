@@ -1,7 +1,12 @@
 html{
     background-color: khaki;
-    align-items: center;
+}
+
+.cajas {
     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    justify-items: left;
 }
 
 img{
