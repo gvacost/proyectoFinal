@@ -1,0 +1,74 @@
+/* #container {
+    background-color: orange;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 10px;
+    border: 3px;
+    border-radius: 5px;
+    border-style: solid;
+} */
+
+header {
+    text-align: center;
+    background-color: orange;
+    font-size: medium;
+    border-radius: 5px;
+    border-style: solid;
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+a:link {
+    color: blue;
+}
+
+a:hover {
+    color: red;
+}
+
+main{
+    display: block;
+    text-align: center;
+    padding: 15px;
+}
+.productos{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+article{
+    border-style: double;
+    border-color: bisque;
+}
+img:hover{
+    transform: scale(1.2);
+}
+
+div{
+    padding: 10px;
+}
+div.listadoCompra{
+    margin-left: 440px;
+    width: 400px;
+}
+
+.listadoCompra{
+    background-color: bisque;
+    border: 2px dashed black;
+    width: 33%;
+    text-align: start;
+}
+.listadoCompra h3{
+    text-align: center;
+}
+.listadoCompra li{
+    list-style: none;
+    margin-left: 10px;
+}
+
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: orange;
+}
